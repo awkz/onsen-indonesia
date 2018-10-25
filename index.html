@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="css/onsenui.css">
+        <link rel="stylesheet" href="css/onsen-css-components.min.css">
+        <script src="js/onsenui.min.js"></script>
+    </head>
+
+    <body>
+
+        <ons-splitter>
+            <ons-splitter-side id="menu" side="left" width="220px" collapse swipeable>
+                <ons-page>
+                    <ons-list>
+                        <ons-list-item onclick="fn.load('home.html')" tappable>
+                            Indonesia Kita
+                        </ons-list-item>
+                        <ons-list-item onclick="fn.load('sejarah.html')" tappable>
+                            Sejarah
+                        </ons-list-item>
+                        <ons-list-item onclick="fn.load('demogeografis.html')" tappable>
+                            Demo-Geografis
+                        </ons-list-item>
+                        <hr>
+                        <ons-list-header>Info</ons-list-header>
+                        <ons-list-item onclick="fn.load('info.html')" tappable>
+                            Info
+                        </ons-list-item>
+                        <ons-list-item onclick="fn.load('keluar.html')" tappable>
+                            Keluar
+                        </ons-list-item>
+                    </ons-list>
+                </ons-page>
+            </ons-splitter-side>
+            <ons-splitter-content id="content" page="home.html"></ons-splitter-content>
+        </ons-splitter>
+
+        <template id="home.html">
+            <ons-page>
+                <ons-toolbar>
+                    <div class="left">
+                        <ons-toolbar-button onclick="fn.open()">
+                            <ons-icon icon="md-menu"></ons-icon>
+                        </ons-toolbar-button>
+                    </div>
+                    <div class="center">
+                        Indonesia Kita
+                    </div>
+                </ons-toolbar>
+                <ons-card>
+                    <img src="img/pancasila.png" alt="Pancasila" style="width: 100%">
+
+                    <div class="content">
+                        <p>Selamat Datang di Indonesia Kita. Disini anda akan belajar untuk menjadi orang Indonesia
+                            yang 'benar-benar' Indonesia.
+                    </div>
+                </ons-card>
+            </ons-page>
+        </template>
+
+        <template id="sejarah.html">
+            <ons-page id="list-group">
+                <ons-toolbar>
+                    <div class="left">
+                        <ons-toolbar-button onclick="fn.open()">
+                            <ons-icon icon="md-menu"></ons-icon>
+                        </ons-toolbar-button>
+                    </div>
+                    <div class="center">
+                        Timeline Sejarah
+                    </div>
+                </ons-toolbar>
+                <section style="padding: 8px">
+                    <ons-list>
+                        <ons-list-item onclick="fn.load('hindubudha.html')">
+                            <div class="left">
+                                <img class="list-item__thumbnail" src="img/kerajaan-hindu-budha.jpg">
+                            </div>
+                            <div class="center">
+                                <span class="list-item__title">Kerajaan Hindu Budha</span>
+                                <span class="list-item__subtitle">Abad ke 5-12M</span>
+                            </div>
+                        </ons-list-item>
+                        <ons-list-item onclick="fn.load('
+                        kesultananislam.html')">
+                            <div class="left">
+                                <img class="list-item__thumbnail" src="img/kerajaan-kesultanan-islam.jpg">
+                            </div>
+                            <div class="center">
+                                <span class="list-item__title">Kerajaan/Kesultanan Islam</span>
+                                <span class="list-item__subtitle">1200 - 1500 M</span>
+                            </div>
+                        </ons-list-item>
+                        <ons-list-item onclick="fn.load('
+                        kolonialisasi.html')">
+                            <div class="left">
+                                <img class="list-item__thumbnail" src="img/kolonialisasi.jpg">
+                            </div>
+                            <div class="center">
+                                <span class="list-item__title">Kolonialisasi</span>
+                                <span class="list-item__subtitle">1500 - 1945 M</span>
+                            </div>
+                        </ons-list-item>
+                        <ons-list-item onclick="fn.load('
+                        kemerdekaan.html')">
+                            <div class="left">
+                                <img class="list-item__thumbnail" src="img/kemerdekaan.jpg">
+                            </div>
+                            <div class="center">
+                                <span class="list-item__title">Kemerdekaan & Setelahnya</span>
+                                <span class="list-item__subtitle">1900 - Saat ini</span>
+                            </div>
+                        </ons-list-item>
+                    </ons-list>
+                </section>
+            </ons-page>
+        </template>
+
+        <template id="demogeografis.html">
+            <ons-page>
+                <ons-toolbar>
+                    <div class="left">
+                        <ons-toolbar-button onclick="fn.open()">
+                            <ons-icon icon="md-menu"></ons-icon>
+                        </ons-toolbar-button>
+                    </div>
+                    <div class="center">
+                        Demo-Geografis
+                    </div>
+                </ons-toolbar>
+                <section style="padding: 8px">
+                    <ons-list>
+                        <ons-list-item onclick="fn.load('home.html')">
+                            <div class="center">
+                                <span class="list-item__title">Pendahuluan</span>
+                                <span class="list-item__subtitle">Introduction</span>
+                            </div>
+                        </ons-list-item>
+                        <ons-list-item>
+                            <div class="center">
+                                <span class="list-item__title">Letak Geografis</span>
+                                <span class="list-item__subtitle">Geography of Indonesia</span>
+                            </div>
+                        </ons-list-item>
+                        <ons-list-item>
+                            <div class="center">
+                                <span class="list-item__title">Penduduk</span>
+                                <span class="list-item__subtitle">Population</span>
+                            </div>
+                        </ons-list-item>
+                        <ons-list-item>
+                            <div class="center">
+                                <span class="list-item__title">Agama</span>
+                                <span class="list-item__subtitle">Religion</span>
+                            </div>
+                        </ons-list-item>
+                        <ons-list-item>
+                            <div class="center">
+                                <span class="list-item__title">Suku Bangsa</span>
+                                <span class="list-item__subtitle">Ethnic Group</span>
+                            </div>
+                        </ons-list-item>
+                        <ons-list-item>
+                            <div class="center">
+                                <span class="list-item__title">Bahasa</span>
+                                <span class="list-item__subtitle">Language</span>
+                            </div>
+                        </ons-list-item>
+                        <ons-list-item>
+                            <div class="center">
+                                <span class="list-item__title">Provinsi</span>
+                                <span class="list-item__subtitle">province</span>
+                            </div>
+                        </ons-list-item>
+                        <ons-list-item>
+                            <div class="center">
+                                <span class="list-item__title">Tempat Wisata Unggulan</span>
+                                <span class="list-item__subtitle">Tourism</span>
+                            </div>
+                        </ons-list-item>
+                    </ons-list>
+                </section>
+            </ons-page>
+        </template>
+        <template id="info.html">
+            <ons-page>
+                <ons-toolbar>
+                    <div class="left">
+                        <ons-toolbar-button onclick="fn.open()">
+                            <ons-icon icon="md-menu"></ons-icon>
+                        </ons-toolbar-button>
+                    </div>
+                    <div class="center">
+                        Info
+                    </div>
+                </ons-toolbar>
+                <ons-card>
+                    <div class="title">
+                        Indonesia Kita
+                    </div>
+                    <div class="content">
+                        <p>Ini tugas.
+                    </div>
+                </ons-card>
+            </ons-page>
+        </template>
+        <template id="hindubudha.html">
+            <ons-page>
+
+                <ons-toolbar>
+                    <div class="left">
+                        <ons-back-button onclick="fn.load('sejarah.html')">Kembali</ons-back-button>
+                    </div>
+                    <div class="center">
+                        Kerajaan Hindu Budha
+                    </div>
+                </ons-toolbar>
+                <section style="padding: 8px">
+                    <ons-list>
+                        <ons-list-item onclick="fn.load('kutai.html')">
+                            <div class="center">
+                                <span class="list-item__subtitle">Abad ke 5 M</span>
+                                <span class="list-item__title">Kerajaan Kutai</span>
+                            </div>
+                        </ons-list-item>
+                        <ons-list-item>
+                            <div class="center">
+                                <span class="list-item__title">Letak Geografis</span>
+                                <span class="list-item__subtitle">Geography of Indonesia</span>
+                            </div>
+                        </ons-list-item>
+                        <ons-list-item>
+                            <div class="center">
+                                <span class="list-item__title">Penduduk</span>
+                                <span class="list-item__subtitle">Population</span>
+                            </div>
+                        </ons-list-item>
+                        <ons-list-item>
+                            <div class="center">
+                                <span class="list-item__title">Agama</span>
+                                <span class="list-item__subtitle">Religion</span>
+                            </div>
+                        </ons-list-item>
+                        <ons-list-item>
+                            <div class="center">
+                                <span class="list-item__title">Suku Bangsa</span>
+                                <span class="list-item__subtitle">Ethnic Group</span>
+                            </div>
+                        </ons-list-item>
+                        <ons-list-item>
+                            <div class="center">
+                                <span class="list-item__title">Bahasa</span>
+                                <span class="list-item__subtitle">Language</span>
+                            </div>
+                        </ons-list-item>
+                        <ons-list-item>
+                            <div class="center">
+                                <span class="list-item__title">Provinsi</span>
+                                <span class="list-item__subtitle">province</span>
+                            </div>
+                        </ons-list-item>
+                        <ons-list-item>
+                            <div class="center">
+                                <span class="list-item__title">Tempat Wisata Unggulan</span>
+                                <span class="list-item__subtitle">Tourism</span>
+                            </div>
+                        </ons-list-item>
+                    </ons-list>
+                </section>
+            </ons-page>
+        </template>
+        <template id="kutai.html">
+            <ons-page>
+                <ons-toolbar>
+                    <div class="left">
+                        <ons-back-button onclick="fn.load('hindubudha.html')">Kembali</ons-back-button>
+                    </div>
+                    <div class="center">
+                        Kerajaan Kutai
+                    </div>
+                </ons-toolbar>
+                <ons-card>
+                        <img src="img/kutai.jpg" alt="Kutai" style="width: 100%">
+                        <div class="title">Kerajaan Kutai</div>
+                        <div class="subtitle">Abad ke-5</div>
+                        <div class="content">
+                            <p>Letak Kerajaan Kutai berada di hulu sungai Mahakam, Kalimantan Timur yang merupakan Kerajaan Hindu tertua di Indonesia. Ditemukannya tujuh buah batu tulis yang disebut Yupa yang mana ditulis dengan huruf Pallawa dan berbahasa Sanskerta tersebut diperkirakan berasal dari tahun 400 M (abad ke-5). Prasasti Yupa tersebut merupakan prasasti tertua yang menyatakan telah beridirinya suatu Kerajaan Hindu tertua yaitu Kerajaan Kutai.</p>
+                            <p>Tidak banyak informasi mengenai Kerajaan Kutai. Hanya 7 buah prasasti Yupa terseubt lah sumbernya. Penggunaan nama Kerajaan Kutai sendiri ditentukan oleh para ahli sejarah dengan mengambil nama dari tempat ditemukannya prasasti Yupa tersebut.</p>
+                                    
+                                    
+                        </div>
+                    </ons-card>
+            </ons-page>
+        </template>
+        <script>
+            window.fn = {};
+
+            window.fn.open = function () {
+                var menu = document.getElementById('menu');
+                menu.open();
+            };
+
+            window.fn.load = function (page) {
+                var content = document.getElementById('content');
+                var menu = document.getElementById('menu');
+                content.load(page)
+                    .then(menu.close.bind(menu));
+            };
+
+        </script>
+    </body>
+
+</html>
