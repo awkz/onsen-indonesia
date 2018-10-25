@@ -657,7 +657,7 @@
                 </div>
                 <div class="alert-dialog-footer">
                     <ons-alert-dialog-button onclick="hideAlertDialog()">Kembali</ons-alert-dialog-button>
-                    <ons-alert-dialog-button onclick="hideAlertDialog()">Keluar</ons-alert-dialog-button>
+                    <ons-alert-dialog-button onclick="metu()">Keluar</ons-alert-dialog-button>
                 </div>
             </ons-alert-dialog>
         </template>
@@ -697,9 +697,7 @@
                     .hide();
             };
             var metu = function () {
-                document
-                    .getElementById('my-alert-dialog')
-                    .onDeviceBackButton;
+                navigator.app.exitApp()
             };
 
         </script>
