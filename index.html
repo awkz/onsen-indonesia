@@ -27,7 +27,7 @@
                         <ons-list-item onclick="fn.load('info.html')" tappable>
                             Info
                         </ons-list-item>
-                        <ons-list-item onclick="fn.load('keluar.html')" tappable>
+                        <ons-list-item onclick="keluar()" tappable>
                             Keluar
                         </ons-list-item>
                     </ons-list>
@@ -82,8 +82,7 @@
                                 <span class="list-item__subtitle">Abad ke 5-12M</span>
                             </div>
                         </ons-list-item>
-                        <ons-list-item onclick="fn.load('
-                        kesultananislam.html')">
+                        <ons-list-item onclick="fn.load('kesultananislam.html')">
                             <div class="left">
                                 <img class="list-item__thumbnail" src="img/kerajaan-kesultanan-islam.jpg">
                             </div>
@@ -92,8 +91,7 @@
                                 <span class="list-item__subtitle">1200 - 1500 M</span>
                             </div>
                         </ons-list-item>
-                        <ons-list-item onclick="fn.load('
-                        kolonialisasi.html')">
+                        <ons-list-item onclick="fn.load('kolonialisasi.html')">
                             <div class="left">
                                 <img class="list-item__thumbnail" src="img/kolonialisasi.jpg">
                             </div>
@@ -102,8 +100,7 @@
                                 <span class="list-item__subtitle">1500 - 1945 M</span>
                             </div>
                         </ons-list-item>
-                        <ons-list-item onclick="fn.load('
-                        kemerdekaan.html')">
+                        <ons-list-item onclick="fn.load('kemerdekaan.html')">
                             <div class="left">
                                 <img class="list-item__thumbnail" src="img/kemerdekaan.jpg">
                             </div>
@@ -131,49 +128,49 @@
                 </ons-toolbar>
                 <section style="padding: 8px">
                     <ons-list>
-                        <ons-list-item onclick="fn.load('home.html')">
+                        <ons-list-item onclick="fn.load('pendahuluan.html')">
                             <div class="center">
                                 <span class="list-item__title">Pendahuluan</span>
                                 <span class="list-item__subtitle">Introduction</span>
                             </div>
                         </ons-list-item>
-                        <ons-list-item>
+                        <ons-list-item onclick="fn.load('letakgeografis.html')">
                             <div class="center">
                                 <span class="list-item__title">Letak Geografis</span>
                                 <span class="list-item__subtitle">Geography of Indonesia</span>
                             </div>
                         </ons-list-item>
-                        <ons-list-item>
+                        <ons-list-item onclick="fn.load('penduduk.html')">
                             <div class="center">
                                 <span class="list-item__title">Penduduk</span>
                                 <span class="list-item__subtitle">Population</span>
                             </div>
                         </ons-list-item>
-                        <ons-list-item>
+                        <ons-list-item onclick="fn.load('agama.html')">
                             <div class="center">
                                 <span class="list-item__title">Agama</span>
                                 <span class="list-item__subtitle">Religion</span>
                             </div>
                         </ons-list-item>
-                        <ons-list-item>
+                        <ons-list-item onclick="fn.load('sukubangsa.html')">
                             <div class="center">
                                 <span class="list-item__title">Suku Bangsa</span>
                                 <span class="list-item__subtitle">Ethnic Group</span>
                             </div>
                         </ons-list-item>
-                        <ons-list-item>
+                        <ons-list-item onclick="fn.load('bahasa.html')">
                             <div class="center">
                                 <span class="list-item__title">Bahasa</span>
                                 <span class="list-item__subtitle">Language</span>
                             </div>
                         </ons-list-item>
-                        <ons-list-item>
+                        <ons-list-item onclick="fn.load('provinsi.html')">
                             <div class="center">
                                 <span class="list-item__title">Provinsi</span>
                                 <span class="list-item__subtitle">province</span>
                             </div>
                         </ons-list-item>
-                        <ons-list-item>
+                        <ons-list-item onclick="fn.load('tempatwisata.html')">
                             <div class="center">
                                 <span class="list-item__title">Tempat Wisata Unggulan</span>
                                 <span class="list-item__subtitle">Tourism</span>
@@ -200,14 +197,18 @@
                         Indonesia Kita
                     </div>
                     <div class="content">
-                        <p>Ini tugas.
+                        <p>Ini tugas.</p>
+                        <p>Bara Ramadhan - 16.230.0086</p>
+                        <p>Laporkan Bug/Masukkan ke email bararamadhan@gmail.com</p>
+                        <br>
+                        <p>Aplikasi Indonesia Kita. Dibuat dengan penuh buru-buru karna respon waktunya sebentar, jadi harap maklum.</p>
                     </div>
                 </ons-card>
             </ons-page>
         </template>
+        <!-- Timeline Sejarah -->
         <template id="hindubudha.html">
             <ons-page>
-
                 <ons-toolbar>
                     <div class="left">
                         <ons-back-button onclick="fn.load('sejarah.html')">Kembali</ons-back-button>
@@ -222,48 +223,6 @@
                             <div class="center">
                                 <span class="list-item__subtitle">Abad ke 5 M</span>
                                 <span class="list-item__title">Kerajaan Kutai</span>
-                            </div>
-                        </ons-list-item>
-                        <ons-list-item>
-                            <div class="center">
-                                <span class="list-item__title">Letak Geografis</span>
-                                <span class="list-item__subtitle">Geography of Indonesia</span>
-                            </div>
-                        </ons-list-item>
-                        <ons-list-item>
-                            <div class="center">
-                                <span class="list-item__title">Penduduk</span>
-                                <span class="list-item__subtitle">Population</span>
-                            </div>
-                        </ons-list-item>
-                        <ons-list-item>
-                            <div class="center">
-                                <span class="list-item__title">Agama</span>
-                                <span class="list-item__subtitle">Religion</span>
-                            </div>
-                        </ons-list-item>
-                        <ons-list-item>
-                            <div class="center">
-                                <span class="list-item__title">Suku Bangsa</span>
-                                <span class="list-item__subtitle">Ethnic Group</span>
-                            </div>
-                        </ons-list-item>
-                        <ons-list-item>
-                            <div class="center">
-                                <span class="list-item__title">Bahasa</span>
-                                <span class="list-item__subtitle">Language</span>
-                            </div>
-                        </ons-list-item>
-                        <ons-list-item>
-                            <div class="center">
-                                <span class="list-item__title">Provinsi</span>
-                                <span class="list-item__subtitle">province</span>
-                            </div>
-                        </ons-list-item>
-                        <ons-list-item>
-                            <div class="center">
-                                <span class="list-item__title">Tempat Wisata Unggulan</span>
-                                <span class="list-item__subtitle">Tourism</span>
                             </div>
                         </ons-list-item>
                     </ons-list>
@@ -281,18 +240,428 @@
                     </div>
                 </ons-toolbar>
                 <ons-card>
-                        <img src="img/kutai.jpg" alt="Kutai" style="width: 100%">
-                        <div class="title">Kerajaan Kutai</div>
-                        <div class="subtitle">Abad ke-5</div>
-                        <div class="content">
-                            <p>Letak Kerajaan Kutai berada di hulu sungai Mahakam, Kalimantan Timur yang merupakan Kerajaan Hindu tertua di Indonesia. Ditemukannya tujuh buah batu tulis yang disebut Yupa yang mana ditulis dengan huruf Pallawa dan berbahasa Sanskerta tersebut diperkirakan berasal dari tahun 400 M (abad ke-5). Prasasti Yupa tersebut merupakan prasasti tertua yang menyatakan telah beridirinya suatu Kerajaan Hindu tertua yaitu Kerajaan Kutai.</p>
-                            <p>Tidak banyak informasi mengenai Kerajaan Kutai. Hanya 7 buah prasasti Yupa terseubt lah sumbernya. Penggunaan nama Kerajaan Kutai sendiri ditentukan oleh para ahli sejarah dengan mengambil nama dari tempat ditemukannya prasasti Yupa tersebut.</p>
-                                    
-                                    
-                        </div>
-                    </ons-card>
+                    <img src="img/kutai.jpg" alt="Kutai" style="width: 100%">
+                    <div class="title">Kerajaan Kutai</div>
+                    <div class="subtitle">Abad ke-5</div>
+                    <div class="content">
+                        <p>Letak Kerajaan Kutai berada di hulu sungai Mahakam, Kalimantan Timur yang merupakan Kerajaan
+                            Hindu tertua di Indonesia. Ditemukannya tujuh buah batu tulis yang disebut Yupa yang mana
+                            ditulis dengan huruf Pallawa dan berbahasa Sanskerta tersebut diperkirakan berasal dari
+                            tahun 400 M (abad ke-5). Prasasti Yupa tersebut merupakan prasasti tertua yang menyatakan
+                            telah beridirinya suatu Kerajaan Hindu tertua yaitu Kerajaan Kutai.</p>
+                        <p>Tidak banyak informasi mengenai Kerajaan Kutai. Hanya 7 buah prasasti Yupa terseubt lah
+                            sumbernya. Penggunaan nama Kerajaan Kutai sendiri ditentukan oleh para ahli sejarah dengan
+                            mengambil nama dari tempat ditemukannya prasasti Yupa tersebut.</p>
+                    </div>
+                </ons-card>
             </ons-page>
         </template>
+
+        <!-- Kerajaan/Kesultanan Islam -->
+        <template id="kesultananislam.html">
+            <ons-page>
+                <ons-toolbar>
+                    <div class="left">
+                        <ons-back-button onclick="fn.load('sejarah.html')">Kembali</ons-back-button>
+                    </div>
+                    <div class="center">
+                        Kerajaan Hindu Budha
+                    </div>
+                </ons-toolbar>
+                <section style="padding: 8px">
+                    <ons-list>
+                        <ons-list-item onclick="fn.load('samuderapasai.html')">
+                            <div class="center">
+                                <span class="list-item__subtitle">267 - 1521 M</span>
+                                <span class="list-item__title">Kesultanan Samudera Pasai</span>
+                            </div>
+                        </ons-list-item>
+                    </ons-list>
+                </section>
+            </ons-page>
+        </template>
+        <template id="samuderapasai.html">
+            <ons-page>
+                <ons-toolbar>
+                    <div class="left">
+                        <ons-back-button onclick="fn.load('hindubudha.html')">Kembali</ons-back-button>
+                    </div>
+                    <div class="center">
+                        Kesultanan Samudera Pasai
+                    </div>
+                </ons-toolbar>
+                <ons-card>
+                    <img src="img/kutai.jpg" alt="Kutai" style="width: 100%">
+                    <div class="title">Kesultanan Samudera Pasai</div>
+                    <div class="subtitle">267 - 1521 M</div>
+                    <div class="content">
+                        <p>Kesultanan Pasai, juga dikenal dengan Samudera Darussalam, atau Samudera Pasai, adalah
+                            kerajaan Islam yang terletak di pesisir pantai utara Sumatera, kurang lebih di sekitar Kota
+                            Lhokseumawe dan Aceh Utara, Provinsi Aceh, Indonesia.</p>
+                        <p>Belum begitu banyak bukti arkeologis tentang kerajaan ini untuk dapat digunakan sebagai
+                            bahan kajian sejarah.[1] Namun beberapa sejarahwan memulai menelusuri keberadaan kerajaan
+                            ini bersumberkan dari Hikayat Raja-raja Pasai,[2] dan ini dikaitkan dengan beberapa makam
+                            raja serta penemuan koin berbahan emas dan perak dengan tertera nama rajanya.</p>
+                        <p>Kerajaan ini didirikan oleh Marah Silu, yang bergelar Sultan Malik as-Saleh, sekitar tahun
+                            1267. Keberadaan kerajaan ini juga tercantum dalam kitab Rihlah ila l-Masyriq (Pengembaraan
+                            ke Timur) karya Abu Abdullah ibn Batuthah (1304–1368), musafir Maroko yang singgah ke
+                            negeri ini pada tahun 1345. Kesultanan Pasai akhirnya runtuh setelah serangan ihsan
+                            Portugal pada tahun 1521.</p>
+                    </div>
+                </ons-card>
+            </ons-page>
+        </template>
+        <!-- Kolonialisasi -->
+        <template id="kolonialisasi.html">
+            <ons-page>
+                <ons-toolbar>
+                    <div class="left">
+                        <ons-back-button onclick="fn.load('sejarah.html')">Kembali</ons-back-button>
+                    </div>
+                    <div class="center">
+                        Kolonialisasi
+                    </div>
+                </ons-toolbar>
+                <section style="padding: 8px">
+                    <ons-list>
+                        <ons-list-item onclick="fn.load('kolonialisasiportugis.html')">
+                            <div class="center">
+                                <span class="list-item__subtitle">1509 - 1659 M</span>
+                                <span class="list-item__title">Kolonialisasi Portugis</span>
+                            </div>
+                        </ons-list-item>
+                    </ons-list>
+                </section>
+            </ons-page>
+        </template>
+        <template id="kolonialisasiportugis.html">
+            <ons-page>
+                <ons-toolbar>
+                    <div class="left">
+                        <ons-back-button onclick="fn.load('kolonialisasi.html')">Kembali</ons-back-button>
+                    </div>
+                    <div class="center">
+                        Kolonialisasi Portugis
+                    </div>
+                </ons-toolbar>
+                <ons-card>
+                    <img src="img/portugis.jpeg" alt="Kutai" style="width: 100%">
+                    <div class="title">Kolonialisasi Portugis</div>
+                    <div class="subtitle">1509 - 1659 M</div>
+                    <div class="content">
+                        <p>Kolonisasi Portugis di Amerika dimulai pada abad ke-15. Portugal merupakan negara yang
+                            melakukan eksplorasi dunia. Perjanjian Tordesillas memisahkan Dunia Baru kedalam zona
+                            Spanyol dan Portugis tahun 1494. Portugal mengkolonisasi sebagian Amerika Selatan
+                            (kebanyakan Brasil), namun terdapat usaha untuk menetap di Amerika Utara yang gagal.</p>
+                        <p> tahun 1501 dan 1502, Corte-Real bersaudara mengeksplorasi Newfoundland dan Labrador dan
+                            mengklaimnya sebagai bagian dari Kekaisaran Portugis. Koloni di Newfoundland dan Nova
+                            Scotia hanya bertahan selama lima tahun. Serangan penduduk asli dan ekstrimnya suhu
+                            merupakan penyebab gagalnya proyek Portugis di Amerika Utara.</p>
+                    </div>
+                </ons-card>
+            </ons-page>
+        </template>
+
+        <!-- Kemerdekaan -->
+        <template id="kemerdekaan.html">
+            <ons-page>
+                <ons-toolbar>
+                    <div class="left">
+                        <ons-back-button onclick="fn.load('sejarah.html')">Kembali</ons-back-button>
+                    </div>
+                    <div class="center">
+                        Kolonialisasi
+                    </div>
+                </ons-toolbar>
+                <section style="padding: 8px">
+                    <ons-list>
+                        <ons-list-item onclick="fn.load('kolonialisasiportugis.html')">
+                            <div class="center">
+                                <span class="list-item__subtitle">1945 - 1968 M</span>
+                                <span class="list-item__title">Orde Lama</span>
+                            </div>
+                        </ons-list-item>
+                    </ons-list>
+                </section>
+            </ons-page>
+        </template>
+        <template id="kolonialisasiportugis.html">
+            <ons-page>
+                <ons-toolbar>
+                    <div class="left">
+                        <ons-back-button onclick="fn.load('kolonialisasi.html')">Kembali</ons-back-button>
+                    </div>
+                    <div class="center">
+                        Orde Lama
+                    </div>
+                </ons-toolbar>
+                <ons-card>
+                    <img src="img/ordelama.jpeg" alt="Kutai" style="width: 100%">
+                    <div class="title">Orde Lama</div>
+                    <div class="subtitle">1945 - 1968 M</div>
+                    <div class="content">
+                        <p>Orde lama adalah sebuah sebutan yang ditujukan bagi Indonesia di bawah kepemimpinan presiden
+                            Soekarno. Soekarno memerintah Indonesia dimulai sejak tahun 1945-1968. Sedangkan orde baru
+                            adalah periode setelah berlangsungnya orde lama. Orde baru di Indonesia adalah sebutan
+                            untuk mewakili sistem di bawah kepemimpinan presiden Soeharto. Era presiden Soeharto
+                            berkuasa di Indonesia dimulai sejak runtuhnya orde lama pada tahun 1968 sampai dengan
+                            dimulainya orde reformasi pada tahun 1998.</p>
+                    </div>
+                </ons-card>
+            </ons-page>
+        </template>
+
+        <!-- Demo-Geografis -->
+        <template id="pendahuluan.html">
+            <ons-page>
+                <ons-toolbar>
+                    <div class="left">
+                        <ons-back-button onclick="fn.load('demogeografis.html')">Kembali</ons-back-button>
+                    </div>
+                    <div class="center">
+                        Pendahuluan
+                    </div>
+                </ons-toolbar>
+                <ons-card>
+                    <img src="img/indonesia.jpg" alt="Indonesia" style="width: 100%">
+                    <div class="title">Pendahuluan</div>
+                    <div class="subtitle">Introduction</div>
+                    <div class="content">
+                        <p>Republik Indonesia (RI) atau Negara Kesatuan Republik Indonesia (NKRI), atau lebih umum
+                            disebut Indonesia, adalah negara di Asia Tenggara yang dilintasi garis khatulistiwa dan
+                            berada di antara daratan benua Asia dan Australia, serta antara Samudra Pasifik dan Samudra
+                            Hindia. Indonesia adalah negara kepulauan terbesar di dunia yang terdiri dari 17.504 pulau.
+                            Nama alternatif yang biasa dipakai adalah Nusantara. Dengan populasi Hampir 270.054.853
+                            juta jiwa pada tahun 2018, Indonesia adalah negara berpenduduk terbesar keempat di dunia
+                            dan negara yang berpenduduk Muslim terbesar di dunia, dengan lebih dari 230 juta jiwa.
+                            Bentuk negara Indonesia adalah negara kesatuan dan bentuk pemerintahan Indonesia adalah
+                            republik, dengan Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah dan Presiden yang dipilih
+                            secara langsung.</p>
+                    </div>
+                </ons-card>
+            </ons-page>
+        </template>
+        <template id="letakgeografis.html">
+            <ons-page>
+                <ons-toolbar>
+                    <div class="left">
+                        <ons-back-button onclick="fn.load('demogeografis.html')">Kembali</ons-back-button>
+                    </div>
+                    <div class="center">
+                        Letak Geografis
+                    </div>
+                </ons-toolbar>
+                <ons-card>
+                    <img src="img/indonesia.jpg" alt="Indonesia" style="width: 100%">
+                    <div class="title">Letak Geografis</div>
+                    <div class="subtitle">Geography of Indonesia</div>
+                    <div class="content">
+                        <p>Republik Indonesia (RI) atau Negara Kesatuan Republik Indonesia (NKRI), atau lebih umum
+                            disebut Indonesia, adalah negara di Asia Tenggara yang dilintasi garis khatulistiwa dan
+                            berada di antara daratan benua Asia dan Australia, serta antara Samudra Pasifik dan Samudra
+                            Hindia. Indonesia adalah negara kepulauan terbesar di dunia yang terdiri dari 17.504 pulau.
+                            Nama alternatif yang biasa dipakai adalah Nusantara. Dengan populasi Hampir 270.054.853
+                            juta jiwa pada tahun 2018, Indonesia adalah negara berpenduduk terbesar keempat di dunia
+                            dan negara yang berpenduduk Muslim terbesar di dunia, dengan lebih dari 230 juta jiwa.
+                            Bentuk negara Indonesia adalah negara kesatuan dan bentuk pemerintahan Indonesia adalah
+                            republik, dengan Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah dan Presiden yang dipilih
+                            secara langsung.</p>
+                    </div>
+                </ons-card>
+            </ons-page>
+        </template>
+        <template id="penduduk.html">
+            <ons-page>
+                <ons-toolbar>
+                    <div class="left">
+                        <ons-back-button onclick="fn.load('demogeografis.html')">Kembali</ons-back-button>
+                    </div>
+                    <div class="center">
+                        Penduduk
+                    </div>
+                </ons-toolbar>
+                <ons-card>
+                    <img src="img/indonesia.jpg" alt="Indonesia" style="width: 100%">
+                    <div class="title">Penduduk</div>
+                    <div class="subtitle">Population</div>
+                    <div class="content">
+                        <p>Republik Indonesia (RI) atau Negara Kesatuan Republik Indonesia (NKRI), atau lebih umum
+                            disebut Indonesia, adalah negara di Asia Tenggara yang dilintasi garis khatulistiwa dan
+                            berada di antara daratan benua Asia dan Australia, serta antara Samudra Pasifik dan Samudra
+                            Hindia. Indonesia adalah negara kepulauan terbesar di dunia yang terdiri dari 17.504 pulau.
+                            Nama alternatif yang biasa dipakai adalah Nusantara. Dengan populasi Hampir 270.054.853
+                            juta jiwa pada tahun 2018, Indonesia adalah negara berpenduduk terbesar keempat di dunia
+                            dan negara yang berpenduduk Muslim terbesar di dunia, dengan lebih dari 230 juta jiwa.
+                            Bentuk negara Indonesia adalah negara kesatuan dan bentuk pemerintahan Indonesia adalah
+                            republik, dengan Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah dan Presiden yang dipilih
+                            secara langsung.</p>
+                    </div>
+                </ons-card>
+            </ons-page>
+        </template>
+        <template id="agama.html">
+            <ons-page>
+                <ons-toolbar>
+                    <div class="left">
+                        <ons-back-button onclick="fn.load('demogeografis.html')">Kembali</ons-back-button>
+                    </div>
+                    <div class="center">
+                        Agama
+                    </div>
+                </ons-toolbar>
+                <ons-card>
+                    <img src="img/indonesia.jpg" alt="Indonesia" style="width: 100%">
+                    <div class="title">Agama</div>
+                    <div class="subtitle">Religion</div>
+                    <div class="content">
+                        <p>Republik Indonesia (RI) atau Negara Kesatuan Republik Indonesia (NKRI), atau lebih umum
+                            disebut Indonesia, adalah negara di Asia Tenggara yang dilintasi garis khatulistiwa dan
+                            berada di antara daratan benua Asia dan Australia, serta antara Samudra Pasifik dan Samudra
+                            Hindia. Indonesia adalah negara kepulauan terbesar di dunia yang terdiri dari 17.504 pulau.
+                            Nama alternatif yang biasa dipakai adalah Nusantara. Dengan populasi Hampir 270.054.853
+                            juta jiwa pada tahun 2018, Indonesia adalah negara berpenduduk terbesar keempat di dunia
+                            dan negara yang berpenduduk Muslim terbesar di dunia, dengan lebih dari 230 juta jiwa.
+                            Bentuk negara Indonesia adalah negara kesatuan dan bentuk pemerintahan Indonesia adalah
+                            republik, dengan Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah dan Presiden yang dipilih
+                            secara langsung.</p>
+                    </div>
+                </ons-card>
+            </ons-page>
+        </template>
+        <template id="sukubangsa.html">
+            <ons-page>
+                <ons-toolbar>
+                    <div class="left">
+                        <ons-back-button onclick="fn.load('demogeografis.html')">Kembali</ons-back-button>
+                    </div>
+                    <div class="center">
+                        Suku Bangsa
+                    </div>
+                </ons-toolbar>
+                <ons-card>
+                    <img src="img/indonesia.jpg" alt="Indonesia" style="width: 100%">
+                    <div class="title">Suku Bangsa</div>
+                    <div class="subtitle">Ethnic Group</div>
+                    <div class="content">
+                        <p>Republik Indonesia (RI) atau Negara Kesatuan Republik Indonesia (NKRI), atau lebih umum
+                            disebut Indonesia, adalah negara di Asia Tenggara yang dilintasi garis khatulistiwa dan
+                            berada di antara daratan benua Asia dan Australia, serta antara Samudra Pasifik dan Samudra
+                            Hindia. Indonesia adalah negara kepulauan terbesar di dunia yang terdiri dari 17.504 pulau.
+                            Nama alternatif yang biasa dipakai adalah Nusantara. Dengan populasi Hampir 270.054.853
+                            juta jiwa pada tahun 2018, Indonesia adalah negara berpenduduk terbesar keempat di dunia
+                            dan negara yang berpenduduk Muslim terbesar di dunia, dengan lebih dari 230 juta jiwa.
+                            Bentuk negara Indonesia adalah negara kesatuan dan bentuk pemerintahan Indonesia adalah
+                            republik, dengan Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah dan Presiden yang dipilih
+                            secara langsung.</p>
+                    </div>
+                </ons-card>
+            </ons-page>
+        </template>
+        <template id="bahasa.html">
+            <ons-page>
+                <ons-toolbar>
+                    <div class="left">
+                        <ons-back-button onclick="fn.load('demogeografis.html')">Kembali</ons-back-button>
+                    </div>
+                    <div class="center">
+                        Bahasa
+                    </div>
+                </ons-toolbar>
+                <ons-card>
+                    <img src="img/indonesia.jpg" alt="Indonesia" style="width: 100%">
+                    <div class="title">Bahasa</div>
+                    <div class="subtitle">Language</div>
+                    <div class="content">
+                        <p>Republik Indonesia (RI) atau Negara Kesatuan Republik Indonesia (NKRI), atau lebih umum
+                            disebut Indonesia, adalah negara di Asia Tenggara yang dilintasi garis khatulistiwa dan
+                            berada di antara daratan benua Asia dan Australia, serta antara Samudra Pasifik dan Samudra
+                            Hindia. Indonesia adalah negara kepulauan terbesar di dunia yang terdiri dari 17.504 pulau.
+                            Nama alternatif yang biasa dipakai adalah Nusantara. Dengan populasi Hampir 270.054.853
+                            juta jiwa pada tahun 2018, Indonesia adalah negara berpenduduk terbesar keempat di dunia
+                            dan negara yang berpenduduk Muslim terbesar di dunia, dengan lebih dari 230 juta jiwa.
+                            Bentuk negara Indonesia adalah negara kesatuan dan bentuk pemerintahan Indonesia adalah
+                            republik, dengan Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah dan Presiden yang dipilih
+                            secara langsung.</p>
+                    </div>
+                </ons-card>
+            </ons-page>
+        </template>
+        <template id="provinsi.html">
+            <ons-page>
+                <ons-toolbar>
+                    <div class="left">
+                        <ons-back-button onclick="fn.load('demogeografis.html')">Kembali</ons-back-button>
+                    </div>
+                    <div class="center">
+                        Province
+                    </div>
+                </ons-toolbar>
+                <ons-card>
+                    <img src="img/indonesia.jpg" alt="Indonesia" style="width: 100%">
+                    <div class="title">Province</div>
+                    <div class="subtitle">Introduction</div>
+                    <div class="content">
+                        <p>Republik Indonesia (RI) atau Negara Kesatuan Republik Indonesia (NKRI), atau lebih umum
+                            disebut Indonesia, adalah negara di Asia Tenggara yang dilintasi garis khatulistiwa dan
+                            berada di antara daratan benua Asia dan Australia, serta antara Samudra Pasifik dan Samudra
+                            Hindia. Indonesia adalah negara kepulauan terbesar di dunia yang terdiri dari 17.504 pulau.
+                            Nama alternatif yang biasa dipakai adalah Nusantara. Dengan populasi Hampir 270.054.853
+                            juta jiwa pada tahun 2018, Indonesia adalah negara berpenduduk terbesar keempat di dunia
+                            dan negara yang berpenduduk Muslim terbesar di dunia, dengan lebih dari 230 juta jiwa.
+                            Bentuk negara Indonesia adalah negara kesatuan dan bentuk pemerintahan Indonesia adalah
+                            republik, dengan Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah dan Presiden yang dipilih
+                            secara langsung.</p>
+                    </div>
+                </ons-card>
+            </ons-page>
+        </template>
+        <template id="tempatwisata.html">
+            <ons-page>
+                <ons-toolbar>
+                    <div class="left">
+                        <ons-back-button onclick="fn.load('demogeografis.html')">Kembali</ons-back-button>
+                    </div>
+                    <div class="center">
+                        Tempat Wisata Unggulan
+                    </div>
+                </ons-toolbar>
+                <ons-card>
+                    <img src="img/indonesia.jpg" alt="Indonesia" style="width: 100%">
+                    <div class="title">Tempat Wisata Unggulan</div>
+                    <div class="subtitle">Tourism</div>
+                    <div class="content">
+                        <p>Republik Indonesia (RI) atau Negara Kesatuan Republik Indonesia (NKRI), atau lebih umum
+                            disebut Indonesia, adalah negara di Asia Tenggara yang dilintasi garis khatulistiwa dan
+                            berada di antara daratan benua Asia dan Australia, serta antara Samudra Pasifik dan Samudra
+                            Hindia. Indonesia adalah negara kepulauan terbesar di dunia yang terdiri dari 17.504 pulau.
+                            Nama alternatif yang biasa dipakai adalah Nusantara. Dengan populasi Hampir 270.054.853
+                            juta jiwa pada tahun 2018, Indonesia adalah negara berpenduduk terbesar keempat di dunia
+                            dan negara yang berpenduduk Muslim terbesar di dunia, dengan lebih dari 230 juta jiwa.
+                            Bentuk negara Indonesia adalah negara kesatuan dan bentuk pemerintahan Indonesia adalah
+                            republik, dengan Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah dan Presiden yang dipilih
+                            secara langsung.</p>
+                    </div>
+                </ons-card>
+            </ons-page>
+        </template>
+
+
+        <!-- /Demo-Geografis -->
+
+        <!-- Alert -->
+        <template id="alert-dialog.html">
+            <ons-alert-dialog id="my-alert-dialog" modifier="rowfooter">
+                <div class="alert-dialog-title">Keluar Aplikasi</div>
+                <div class="alert-dialog-content">
+                    Apakah anda yakin? Awas nanti nyesel loh?
+                </div>
+                <div class="alert-dialog-footer">
+                    <ons-alert-dialog-button onclick="hideAlertDialog()">Kembali</ons-alert-dialog-button>
+                    <ons-alert-dialog-button onclick="hideAlertDialog()">Keluar</ons-alert-dialog-button>
+                </div>
+            </ons-alert-dialog>
+        </template>
+
         <script>
             window.fn = {};
 
@@ -306,6 +675,31 @@
                 var menu = document.getElementById('menu');
                 content.load(page)
                     .then(menu.close.bind(menu));
+            };
+            var keluar = function () {
+                var dialog = document.getElementById('my-alert-dialog');
+
+                if (dialog) {
+                    dialog.show();
+                } else {
+                    ons.createElement('alert-dialog.html', {
+                            append: true
+                        })
+                        .then(function (dialog) {
+                            dialog.show();
+                        });
+                }
+            };
+
+            var hideAlertDialog = function () {
+                document
+                    .getElementById('my-alert-dialog')
+                    .hide();
+            };
+            var metu = function () {
+                document
+                    .getElementById('my-alert-dialog')
+                    .onDeviceBackButton;
             };
 
         </script>
